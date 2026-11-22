@@ -1,0 +1,5 @@
+edition	language	ready_day	stock	pack_size	lock_day	unit_cost
+A	zh	1	90	50	1	140
+B	zh	1	18	40	3	210
+A	en	1	25	30	2	170
+B	en	1	7	30	2	230

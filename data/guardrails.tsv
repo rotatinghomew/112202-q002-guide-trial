@@ -1,0 +1,3 @@
+hall	layer	min_gain	max_loss	mixed_ceiling	budget
+bronze	minor	0.06	0.03	0.18	9600
+bronze	unfamiliar	0.08	0.05	0.16	9600

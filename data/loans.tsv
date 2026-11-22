@@ -1,0 +1,10 @@
+receipt	household	session	desk	version	minute	received_batch
+R1	H-shared	S1A	D-x	A	0	1
+R2	H-shared	S1B	D-x	B	0	1
+R3	H1A2	S1A	D-x	A	0	1
+R4	H1A3	S1A	D-x	A	0	1
+R5	H2A1	S2A	D-x	B	1	1
+R6	H2B1	S2B	D-x	A	0	1
+R7	H-pending	S2B	D-x	A	0	1
+R8	H-shared	S1B	D-x	A	3	2
+R9	H2B1	S2B	D-x	B	5	2

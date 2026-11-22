@@ -1,0 +1,5 @@
+option	languages	profiles	expected	desk	routes	old_on_desk
+F1	zh	minor	24	D-x	G1	yes
+F2	zh,en	minor,unfamiliar	18	D-x	G1,G2	yes
+F3	zh,en	unfamiliar	22	D-x	G2	no
+F4	en	minor,unfamiliar	12	D-y	G3	no

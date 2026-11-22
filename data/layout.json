@@ -41,5 +41,64 @@
     "volunteer",
     "fixed",
     "flush"
+  ],
+  "invitations.tsv": [
+    "invitation",
+    "household",
+    "session",
+    "prereg_profile",
+    "language",
+    "entered",
+    "offered"
+  ],
+  "loans.tsv": [
+    "receipt",
+    "household",
+    "session",
+    "desk",
+    "version",
+    "minute",
+    "received_batch"
+  ],
+  "edition_inventory.tsv": [
+    "edition",
+    "language",
+    "ready_day",
+    "stock",
+    "pack_size",
+    "lock_day",
+    "unit_cost"
+  ],
+  "dispatch.tsv": [
+    "option",
+    "languages",
+    "profiles",
+    "expected",
+    "desk",
+    "routes",
+    "old_on_desk"
+  ],
+  "dispatch_profiles.tsv": [
+    "option",
+    "language",
+    "profiles",
+    "households"
+  ],
+  "print_orders.tsv": [
+    "order",
+    "option",
+    "edition",
+    "language",
+    "qty",
+    "approved_day",
+    "state"
+  ],
+  "guardrails.tsv": [
+    "hall",
+    "layer",
+    "min_gain",
+    "max_loss",
+    "mixed_ceiling",
+    "budget"
   ]
 }

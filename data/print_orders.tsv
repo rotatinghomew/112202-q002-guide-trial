@@ -1,0 +1,4 @@
+order	option	edition	language	qty	approved_day	state
+P-o1	F1	A	zh	24	1	notified
+P-o2	F2	B	zh	40	1	approved
+P-o3	F4	B	en	6	1	notified

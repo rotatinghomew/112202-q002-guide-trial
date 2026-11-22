@@ -20,3 +20,10 @@ python3 -m unittest discover -s tests
 - `visits.tsv`：opportunity 和 minute 为相对场次开始的分钟；result 可为独立找到、求助后找到、未找到、缺交班结果。not-found 仅为记录员登记的观测；窗口不足时不据此判定最终失败。 列顺序为 `visit`、`household`、`session`、`profile`、`actual`、`opportunity`、`result`、`minute`。
 - `printing.tsv`：比例差用小数；group 是需保护的访客分层；contamination_max 是允许的异版接触比例上限。 列顺序为 `hall`、`min_gain`、`group`、`max_loss`、`contamination_max`。
 - `next_sessions.tsv`：可排场次；fixed 为空则可选版，否则已承诺版本；不同版同厅相邻之间至少 flush 分钟。 列顺序为 `option`、`hall`、`day`、`start`、`length`、`volunteer`、`fixed`、`flush`。
+- `invitations.tsv`：prereg_profile 是分配前标签集合；邀请未实到时 entered=no；offered 记录告知版而非实际接触。 列为 `invitation`、`household`、`session`、`prereg_profile`、`language`、`entered`、`offered`。
+- `loans.tsv`：登记一次真实接触或借阅；晚到批次可以补录同户第二版接触。 列为 `receipt`、`household`、`session`、`desk`、`version`、`minute`、`received_batch`。
+- `edition_inventory.tsv`：pack_size 为追加印单起印整批单位，费用单位分。 列为 `edition`、`language`、`ready_day`、`stock`、`pack_size`、`lock_day`、`unit_cost`。
+- `dispatch.tsv`：expected 为访客家庭数；profiles 是可能参与的保护层，联合分层计数见需求表；routes 是线路键，可共享服务台。 列为 `option`、`languages`、`profiles`、`expected`、`desk`、`routes`、`old_on_desk`。
+- `dispatch_profiles.tsv`：标签集合为互斥组合，行可加；all 表示没有额外保护标签。 列为 `option`、`language`、`profiles`、`households`。
+- `print_orders.tsv`：approved 是已签印量；notified 表示场次已有对外发放承诺。 列为 `order`、`option`、`edition`、`language`、`qty`、`approved_day`、`state`。
+- `guardrails.tsv`：层级分别生效；比例用小数；budget 为整份追加采购成本上限，分。 列为 `hall`、`layer`、`min_gain`、`max_loss`、`mixed_ceiling`、`budget`。

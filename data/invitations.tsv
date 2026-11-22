@@ -1,0 +1,9 @@
+invitation	household	session	prereg_profile	language	entered	offered
+I1	H-shared	S1A	minor,unfamiliar	zh	yes	A
+I2	H1A2	S1A	unfamiliar	zh	yes	A
+I3	H1A3	S1A	minor	en	yes	A
+I4	H-shared	S1B	minor,unfamiliar	zh	yes	B
+I5	H-unseen	S1B	unfamiliar	en	no	B
+I6	H2A1	S2A	minor	zh	yes	B
+I7	H2B1	S2B	unfamiliar	en	yes	A
+I8	H-pending	S2B	minor,unfamiliar	en	yes	A
