@@ -1,0 +1,9 @@
+option	hall	day	start	length	volunteer	fixed	flush
+F1	bronze	2	60	20	V2	A	10
+F2	bronze	2	80	20	V2	-	10
+F3	bronze	2	115	20	V0	-	10
+F4	bronze	2	145	20	V2	-	10
+F5	clay	2	65	25	V1	B	5
+F6	clay	2	100	25	V1	-	5
+F7	clay	3	60	25	V1	-	5
+F8	clay	3	96	25	V0	-	5

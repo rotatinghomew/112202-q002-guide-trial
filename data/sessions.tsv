@@ -1,0 +1,17 @@
+session	start	open_minutes	volunteer	status
+S1A	60	30	V2	observed
+S1B	85	30	V2	observed
+S2A	120	30	V3	observed
+S2B	145	10	V3	observed
+S3A	180	30	V0	observed
+S3B	205	30	V0	observed
+S4A	240	30	V1	observed
+S4B	265	30	V1	observed
+S5A	300	30	V2	observed
+S5B	325	30	V2	observed
+S6A	360	30	V3	observed
+S6B	385	30	V3	cancelled
+S7A	420	30	V0	observed
+S7B	445	30	V0	observed
+S8A	480	30	V1	observed
+S8B	505	30	V1	observed

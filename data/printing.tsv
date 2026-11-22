@@ -1,0 +1,3 @@
+hall	min_gain	group	max_loss	contamination_max
+bronze	0.08	family	0.04	0.25
+clay	0.05	adult	0.05	0.20

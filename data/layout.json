@@ -1,0 +1,45 @@
+{
+  "assignment.tsv": [
+    "pair",
+    "hall",
+    "left",
+    "right",
+    "left_edition",
+    "right_edition",
+    "horizon"
+  ],
+  "sessions.tsv": [
+    "session",
+    "start",
+    "open_minutes",
+    "volunteer",
+    "status"
+  ],
+  "visits.tsv": [
+    "visit",
+    "household",
+    "session",
+    "profile",
+    "actual",
+    "opportunity",
+    "result",
+    "minute"
+  ],
+  "printing.tsv": [
+    "hall",
+    "min_gain",
+    "group",
+    "max_loss",
+    "contamination_max"
+  ],
+  "next_sessions.tsv": [
+    "option",
+    "hall",
+    "day",
+    "start",
+    "length",
+    "volunteer",
+    "fixed",
+    "flush"
+  ]
+}
